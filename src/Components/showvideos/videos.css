@@ -1,0 +1,43 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.card{
+    background: aquamarine;
+    width: 280px;
+    height: 220px;
+    padding: 0%;
+    margin-left: 18px;
+    margin-top: 4px;
+}
+h3{
+    margin-top: 5px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+h5{
+    color: #B2BEB5;
+    margin-top: 0%;
+    padding: 0%;
+    margin-bottom: 2px;
+    margin-left: 4px;
+    margin-top: 2px;
+}
+.card-image{
+    background-color: aqua;
+    height: 100px;
+    margin-bottom: 2px;
+    background-size: cover;
+}
+
+.car-1{
+    background-image: url('https://picsum.photos/seed/picsum/200/300');
+}
