@@ -1,0 +1,84 @@
+.payment-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.payment-wrapper .payment-sub-wrapper {
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px 30px;
+    width: 440px;
+    margin: 20px;
+    box-shadow: rgba(25, 5, 5, 0.5) 0px 2px 8px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-wrapper .payment-sub-wrapper h1 {
+    color: black;
+    top: 0;
+    text-align: center;
+}
+
+.payment-wrapper .payment-sub-wrapper h3 {
+    color: grey;
+}
+
+.payment-wrapper .payment-sub-wrapper h4 {
+    width: 100%;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+.payment-sub-wrapper .proceed-to-pay-txt {
+    color: rgb(78, 78, 78);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.payment-sub-wrapper .pay-btn {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    float: right;
+}
+
+
+@media (width:320px) {
+    .payment-sub-wrapper .proceed-to-pay-txt {
+        font-size: 30px;
+    }
+}
+
+.payment-sub-wrapper .link {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+    margin-right: 10px;
+
+}
+
+@media (max-width:425px) {
+    .payment-sub-wrapper .link {
+        margin-left: 10px;
+    }
+}

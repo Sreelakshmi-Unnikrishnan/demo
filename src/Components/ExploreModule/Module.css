@@ -1,0 +1,517 @@
+.arrow{
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size:24px;
+}
+div[role='menu'] {
+    visibility: hidden;
+}
+
+div[role='menu'].visible {
+    visibility: visible;
+}
+.module-purchased{
+    display: flex;
+    flex-wrap: wrap;
+   margin: 50px;
+   margin-right: 180px;
+   height: 300px;
+   width: 20%;
+   float: right;
+  }
+  .module-purchased img{
+    height: 120px;
+    width: 100%;
+    position: static
+    }
+   
+   
+   
+    .module-purchased .module-buynow-button{
+      padding: 6px;
+       /* margin: 26px 25px 10px 10px; */
+       border-radius: 8px;
+       font-weight: bold;
+       text-align: center;
+       width: 200px;
+       height: 40px;
+       border: none;
+       margin-top: 20px;
+       margin-left: 25px;
+       background: 
+         linear-gradient(120deg,#0000 33%,rgba(255,255,255,0.3) 50%,#0000 66%)
+         rgb(13, 119, 114);
+       background-size:300% 100%;
+       animation: shine 2s infinite;
+    }
+   
+.module-purchased .card{
+    background-color: #f0f8ff;
+    height: 340px;
+    padding: 0;
+    float: right;
+  }
+  
+  .card img{
+    width: 280px;
+  }
+  
+  .card h6{
+    font-size: 13px;
+    line-height: 20px;
+  }
+  
+  .card h2{
+    margin-bottom: 10px;
+  
+  }
+  
+  .card h2:before {
+    content: ' \0024';
+  }
+  
+  .card h2 span{
+    font-size: 18px;
+    color: grey;
+  }
+  
+  .card h2 s{
+    color: grey;
+  }
+  
+  .card h2 span:before {
+    content: ' \0024';
+    margin-left: 20px;
+  }
+  
+  .fa{
+    display: flex;
+    position: sticky;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 380px;
+    margin-top: -20px;
+  }
+
+.wrapper{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+  }
+  
+  .collapsible{
+    width: 450px;
+    overflow: hidden;
+    font-weight: 500;
+  }
+  
+  .collapsible input{
+    display: none;
+  }
+  
+  .collapsible label{
+    position: relative;
+    font-weight: 600;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.1),0 4px 11px 0 rgba(0,0,0,.08);
+    background-color:lightgray;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    z-index: 9;
+  }
+  
+  .collapsible label:hover{
+    background-color:grey;
+  }
+  
+  
+  .collapsible label:after{
+    content:"\003E";
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 18px;
+    height: 18px;
+    transition:all 0.3s ease;
+  }
+  
+  
+  .collapsible input:checked + label::after{
+    transform: rotate(90deg);
+  }
+  
+  .collapsible-text{
+  max-height: 1px;
+  overflow: hidden;
+  border-radius: 4px;
+  line-height: 1.4;
+  position: relative;
+  top: -100%;
+  opacity: 0.5;
+  transition:all 0.3s ease;
+  
+  }
+  
+  .collapsible input:checked ~ .collapsible-text{
+    max-height: 800px;
+    padding-bottom: 10px;
+    background: white;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.1),0 4px 11px 0 rgba(0,0,0,.08);
+    opacity: 1;
+    top: 0;
+  }
+  
+  .collapsible-text h2{
+    margin-bottom: 10px;
+    padding: 15px 15px 0;
+    color: blanchedalmond;
+    
+    }
+  
+  .collapsible-text p{
+  padding-left: 15px;
+  padding-right: 15px;
+  
+  }
+
+
+  .wrapper{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+  }
+  
+  .collapsiblee{
+    width: 450px;
+    overflow: hidden;
+    font-weight: 500;
+  
+  }
+  
+  .collapsiblee input{
+    display: none;
+  
+  }
+  .collapsiblee label{
+    content: "\f054";
+    position: relative;
+    font-weight: 600;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.1),0 4px 11px 0 rgba(0,0,0,.08);
+    background-color:lightgray;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    z-index: 9;
+  }
+  
+  .collapsiblee label:hover{
+    background-color:grey;
+  }
+  
+  .collapsiblee label:after{
+    content:"\003E";
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 18px;
+    height: 18px;
+    transition:all 0.3s ease;
+  }
+  
+  
+  .collapsiblee input:checked + label::after{
+    transform: rotate(90deg);
+  }
+  
+  .collapsiblee-text{
+  max-height: 1px;
+  overflow: hidden;
+  border-radius: 4px;
+  line-height: 1.4;
+  position: relative;
+  top: -100%;
+  opacity: 0.5;
+  transition:all 0.3s ease;
+  }
+  
+  .collapsiblee input:checked ~ .collapsiblee-text{
+    max-height: 800px;
+    padding-bottom: 10px;
+    background: white;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.1),0 4px 11px 0 rgba(0,0,0,.08);
+    opacity: 1;
+    top: 0;
+  }
+  
+  .collapsiblee-text h2{
+    margin-bottom: 10px;
+    padding: 15px 15px 0;
+    color: blanchedalmond;
+    }
+  
+  .collapsiblee-text p{
+  padding-left: 15px;
+  padding-right: 15px;
+  
+  }
+
+  
+.wrapper{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+  }
+  
+  .collapsibleee{
+    width: 450px;
+    overflow: hidden;
+    font-weight: 500;
+  }
+  
+  .collapsibleee input{
+    display: none;
+  }
+  
+  .collapsibleee label{
+    content: "\f054";
+    position: relative;
+    font-weight: 600;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.1),0 4px 11px 0 rgba(0,0,0,.08);
+    background-color:lightgray;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    z-index: 9;
+  }
+  
+  .collapsibleee label:hover{
+    background-color:grey;
+  }
+  
+  .collapsibleee label:after{
+    content:"\003E";
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 18px;
+    height: 18px;
+    transition:all 0.3s ease;
+  }
+  
+  
+  .collapsibleee input:checked + label::after{
+    transform: rotate(90deg);
+  }
+  
+  .collapsibleee-text{
+  max-height: 1px;
+  overflow: hidden;
+  border-radius: 4px;
+  line-height: 1.4;
+  position: relative;
+  top: -100%;
+  opacity: 0.5;
+  transition:all 0.3s ease;
+  }
+  
+  .collapsibleee input:checked ~ .collapsibleee-text{
+    max-height: 800px;
+    padding-bottom: 10px;
+    background: white;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.1),0 4px 11px 0 rgba(0,0,0,.08);
+    opacity: 1;
+    top: 0;
+  }
+  
+  .collapsibleee-text h2{
+    margin-bottom: 10px;
+    padding: 15px 15px 0;
+    color: blanchedalmond;
+    }
+  
+  .collapsibleee-text p{
+  padding-left: 15px;
+  padding-right: 15px;
+  
+  }
+  
+  /* module 4 */
+  
+  .wrapper{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+  }
+  
+  .collapsibleeee{
+    width: 450px;
+    overflow: hidden;
+    font-weight: 500;
+  }
+  
+  .collapsibleeee input{
+    display: none;
+  }
+  
+  .collapsibleeee label{
+    content: "\f054";
+    position: relative;
+    font-weight: 600;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.1),0 4px 11px 0 rgba(0,0,0,.08);
+    background-color:lightgray;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    z-index: 9;
+  }
+  
+  .collapsibleeee label:hover{
+    background-color:grey;
+  }
+  
+  .collapsibleeee label:after{
+    content:"\003E";
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 18px;
+    height: 18px;
+    transition:all 0.3s ease;
+  }
+  
+  
+  .collapsibleeee input:checked + label::after{
+    transform: rotate(90deg);
+  }
+  
+  .collapsibleeee-text{
+  max-height: 1px;
+  overflow: hidden;
+  border-radius: 4px;
+  line-height: 1.4;
+  position: relative;
+  top: -100%;
+  opacity: 0.5;
+  transition:all 0.3s ease;
+  }
+  
+  .collapsibleeee input:checked ~ .collapsibleeee-text{
+    max-height: 800px;
+    padding-bottom: 10px;
+    background: white;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.1),0 4px 11px 0 rgba(0,0,0,.08);
+    opacity: 1;
+    top: 0;
+  }
+  
+  .collapsibleeee-text h2{
+    margin-bottom: 10px;
+    padding: 15px 15px 0;
+    color: blanchedalmond;
+    }
+  
+  .collapsibleeee-text p{
+  padding-left: 15px;
+  padding-right: 15px;
+  
+  }
+  
+  /* module 5 */
+  
+  
+  .wrapper{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+  }
+  
+  .collapsibleeeee{
+    width: 450px;
+    overflow: hidden;
+    font-weight: 500;
+  
+  }
+  
+  .collapsibleeeee input{
+    display: none;
+    
+  }
+  
+  .collapsibleeeee label{
+    content: "\f054";
+    position: relative;
+    font-weight: 600;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.1),0 4px 11px 0 rgba(0,0,0,.08);
+    background-color:lightgray;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    z-index: 9;
+  }
+  
+  .collapsibleeeee label:hover{
+    background-color:grey;
+  }
+  
+  .collapsibleeeee label:after{
+    content:"\003E";
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 18px;
+    height: 18px;
+    transition:all 0.3s ease;
+  }
+  
+  
+  .collapsibleeeee input:checked + label::after{
+    transform: rotate(90deg);
+  }
+  
+  .collapsibleeeee-text{
+  max-height: 1px;
+  overflow: hidden;
+  border-radius: 4px;
+  line-height: 1.4;
+  position: relative;
+  top: -100%;
+  opacity: 0.5;
+  transition:all 0.3s ease;
+  }
+  
+  .collapsibleeeee input:checked ~ .collapsibleeeee-text{
+    max-height: 800px;
+    padding-bottom: 10px;
+    background: white;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.1),0 4px 11px 0 rgba(0,0,0,.08);
+    opacity: 1;
+    top: 0;
+  }
+  
+  .collapsibleeeee-text h2{
+    margin-bottom: 10px;
+    padding: 15px 15px 0;
+    color: blanchedalmond;
+    }
+  
+  .collapsibleeeee-text p{
+  padding-left: 15px;
+  padding-right: 15px;
+  
+  }

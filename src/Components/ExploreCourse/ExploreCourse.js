@@ -4,6 +4,7 @@ import './ExploreCourse.css';
 import NavBar from "../NavBar/NavBar";
 import Footer from '../Footer/Footer';
 import axios from 'axios';
+import { Link } from "react-router-dom";
 
 function ExploreCourse() {
     
@@ -32,6 +33,14 @@ function ExploreCourse() {
             console.log("------", response.data["subjects"]);
           }
       })}, [university, department, semester, specialization]);
+
+      useEffect(() => {
+        localStorage.setItem("University", university);
+        localStorage.setItem("Department", department);
+        localStorage.setItem("Specialization", specialization);
+        localStorage.setItem("Semester", semester);
+      });
+    
     
   return (
     <div>
@@ -85,7 +94,9 @@ function ExploreCourse() {
             APIData.map((data, index) => {
               return (
                 <div className="subject-list" key={index.id}>
-                    <button>{data}</button>
+                  <button style={{marginLeft:"100px", marginTop:"30px", width:"250px",
+    height:"65px"}}><Link to="/module/">{data}</Link></button>
+                    
                 </div>
               );
             })}
@@ -97,7 +108,7 @@ function ExploreCourse() {
         </button>
         </div>
         <hr style={{marginTop:"50px"}}></hr>
-        <Footer/>
+        <Footer/> 
     </div>
   )
 }

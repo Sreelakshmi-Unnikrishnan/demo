@@ -34,6 +34,20 @@ function videos() {
           </div>
           <h3 style={{ marginLeft: "20%",color:"green" }}>MG &gt; BBA &gt; Sem1 &gt; Computer Application</h3>
         <section className='container'>
+            {/* <div className='card'>
+                <div className='card-image car-1'></div>
+                <h3>What is Business Law and its importance?</h3>
+                <h5>Subject: CS</h5>
+                <h5>Module: 1</h5>
+                <h5>Part: 1</h5>
+            </div> */}
+            {/* <div className='card'>
+                <div className='card-image car-1'></div>
+                <h3>What is Business Law and its importance?</h3>
+                <h5>Subject: CS</h5>
+                <h5>Module: 1</h5>
+                <h5>Part: 1</h5>
+            </div> */}
             <div className='card'>
                 <div className='card-image car-1'></div>
                 <h3>What is Business Law and its importance?</h3>
@@ -55,7 +69,14 @@ function videos() {
                 <h5>Module: 1</h5>
                 <h5>Part: 1</h5>
             </div>
-            <div className='card'>
+            {/* <div className='card'>
+                <div className='card-image car-1'></div>
+                <h3>What is Business Law and its importance?</h3>
+                <h5>Subject: CS</h5>
+                <h5>Module: 1</h5>
+                <h5>Part: 1</h5>
+            </div> */}
+            {/* <div className='card'>
                 <div className='card-image car-1'></div>
                 <h3>What is Business Law and its importance?</h3>
                 <h5>Subject: CS</h5>
@@ -68,28 +89,7 @@ function videos() {
                 <h5>Subject: CS</h5>
                 <h5>Module: 1</h5>
                 <h5>Part: 1</h5>
-            </div>
-            <div className='card'>
-                <div className='card-image car-1'></div>
-                <h3>What is Business Law and its importance?</h3>
-                <h5>Subject: CS</h5>
-                <h5>Module: 1</h5>
-                <h5>Part: 1</h5>
-            </div>
-            <div className='card'>
-                <div className='card-image car-1'></div>
-                <h3>What is Business Law and its importance?</h3>
-                <h5>Subject: CS</h5>
-                <h5>Module: 1</h5>
-                <h5>Part: 1</h5>
-            </div>
-            <div className='card'>
-                <div className='card-image car-1'></div>
-                <h3>What is Business Law and its importance?</h3>
-                <h5>Subject: CS</h5>
-                <h5>Module: 1</h5>
-                <h5>Part: 1</h5>
-            </div>
+            </div> */}
         </section>
     </div>
   )
